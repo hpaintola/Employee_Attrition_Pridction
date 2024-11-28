@@ -78,11 +78,30 @@ Highlights:
 
  ### 4. Model Training
 File: `model_training.ipynb`
-This module will implement machine learning algorithms to train and evaluate models for predicting employee attrition.
-(Details will be updated once this module is integrated.)
+This module trains machine learning models and evaluates their performance.
 
+Key Steps:
 
+- Model Training:
+Implements Logistic Regression and Random Forest classifiers using PySpark.
+- Predictions: Generates predictions and probabilities for employee attrition.
+- Evaluation:
+Calculates metrics such as Area Under ROC (AUC) and Accuracy.
+- Feature Importance:
+Extracts feature importance using the trained Random Forest model.<br>
+Highlights:
 
+- Model Comparison: Compares different algorithms for optimal results.
+- Feature Insights: Ranks feature importance to explain drivers of attrition.<br>
+Sample Outputs:
 
+- Area Under ROC (AUC): Evaluates the classifier's ability to distinguish between classes.
+Feature Importance: Highlights features like Job Satisfaction, Work-Life Balance, and Overtime as key predictors.<br>
+
+### Technologies Used
+- PySpark: For distributed data processing and machine learning.
+- Kaggle API: For data retrieval.
+- Parquet: For efficient data storage.
+- Jupyter Notebook: For development and experimentation.
 
 
