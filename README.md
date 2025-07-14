@@ -104,4 +104,18 @@ Feature Importance: Highlights features like Job Satisfaction, Work-Life Balance
 - Parquet: For efficient data storage.
 - Jupyter Notebook: For development and experimentation.
 
+### Sample Outputs
+AUC Score: Used to evaluate model’s classification performance
 
+Feature Importance Visualization:
+Key indicators such as:
+
+- Job Satisfaction
+
+- Overtime
+
+Work-Life Balance
+Help HR teams understand the root causes of attrition
+
+### Summary
+This pipeline provides a practical and scalable framework for predicting employee attrition. It applies best practices in data engineering and machine learning and can be easily extended or integrated into larger enterprise analytics systems. With its modular structure and explainable output, it offers both technical robustness and business value.
